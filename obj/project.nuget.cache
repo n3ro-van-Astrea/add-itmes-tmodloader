@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iWrmV6nBC40=",
+  "success": true,
+  "projectFilePath": "/home/nero/.local/share/Terraria/tModLoader/ModSources/amoxnero/amoxnero.csproj",
+  "expectedPackageFiles": [
+    "/home/nero/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.30/microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

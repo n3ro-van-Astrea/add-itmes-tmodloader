@@ -1,0 +1,3 @@
+displayName = add items
+author = amox,nero
+version = 0.1
