@@ -1,7 +1,6 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.DataStructures;
 using add_itmes.Projectiles;
 namespace add_itmes.Items
 {
@@ -39,5 +38,6 @@ public override void AddRecipes()
     recipe.AddTile(TileID.WorkBenches);
 
     recipe.Register();
+}
 }
 }

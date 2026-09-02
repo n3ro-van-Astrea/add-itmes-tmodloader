@@ -53,6 +53,7 @@ namespace amoxnero.Content.Items
         {
             // Вешаем горение на 3 секунды (180 кадров)
             target.AddBuff(BuffID.Frostburn, 180);
+            target.AddBuff(BuffID.OnFire, 180);
 
             // Создаем всплеск из 12 разлетающихся искр при ударе
             for (int i = 0; i < 12; i++)
