@@ -2,8 +2,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
-using add_itmes.Projectiles;
-namespace add_itmes.Items
+using amoxnero.Content.Projectiles;
+namespace amoxnero.Content.Items
 {
     public class AllFlames : ModItem
     {
@@ -40,4 +40,4 @@ public override void AddRecipes()
 
     recipe.Register();
 }
-}
+}}

@@ -16,4 +16,11 @@ Items: {
 		DisplayName: bow
 		Tooltip: ""
 	}
+
+	AllFlames: {
+		DisplayName: All Flames
+		Tooltip: ""
+	}
 }
+
+Projectiles.AllFlamesProjectile.DisplayName: All Flames Projectile
