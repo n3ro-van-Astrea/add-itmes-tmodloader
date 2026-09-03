@@ -20,7 +20,7 @@ namespace amoxnero.Content.Projectiles
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Magic;
             Projectile.penetrate = 1;
-            Projectile.timeLeft = 300;
+            Projectile.timeLeft = 900;
             
         }
     }

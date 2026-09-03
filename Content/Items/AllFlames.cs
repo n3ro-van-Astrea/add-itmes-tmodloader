@@ -11,8 +11,8 @@ namespace amoxnero.Content.Items
         {
             Item.damage = 3;
             Item.DamageType = DamageClass.Magic;
-            Item.width = 32;
-            Item.height = 32;
+            Item.width = 26;
+            Item.height = 26;
             Item.useTime = 20;
             Item.useAnimation = 20;
             Item.useStyle = ItemUseStyleID.Shoot;
@@ -22,9 +22,10 @@ namespace amoxnero.Content.Items
             Item.UseSound = SoundID.Item20;
             Item.autoReuse = true;
             Item.shoot = ModContent.ProjectileType<AllFlamesProjectile>();
-Item.shootSpeed = 10f;
+            Item.shootSpeed = 10f;
+            Item.scale = 0.8f;
         }
- public override void SetStaticDefaults()
+public override void SetStaticDefaults()
 {
     Item.ResearchUnlockCount = 1;
 }   
