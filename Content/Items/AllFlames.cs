@@ -1,8 +1,14 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+<<<<<<< HEAD
 using add_itmes.Projectiles;
 namespace add_itmes.Items
+=======
+using Terraria.DataStructures;
+using amoxnero.Content.Projectiles;
+namespace amoxnero.Content.Items
+>>>>>>> d79e41375fb27edabb75bfaf990ace33b4833846
 {
     public class AllFlames : ModItem
     {
@@ -10,8 +16,8 @@ namespace add_itmes.Items
         {
             Item.damage = 3;
             Item.DamageType = DamageClass.Magic;
-            Item.width = 32;
-            Item.height = 32;
+            Item.width = 26;
+            Item.height = 26;
             Item.useTime = 20;
             Item.useAnimation = 20;
             Item.useStyle = ItemUseStyleID.Shoot;
@@ -21,9 +27,10 @@ namespace add_itmes.Items
             Item.UseSound = SoundID.Item20;
             Item.autoReuse = true;
             Item.shoot = ModContent.ProjectileType<AllFlamesProjectile>();
-Item.shootSpeed = 10f;
+            Item.shootSpeed = 10f;
+            Item.scale = 0.8f;
         }
- public override void SetStaticDefaults()
+public override void SetStaticDefaults()
 {
     Item.ResearchUnlockCount = 1;
 }   
@@ -39,5 +46,9 @@ public override void AddRecipes()
 
     recipe.Register();
 }
+<<<<<<< HEAD
 }
 }
+=======
+}}
+>>>>>>> d79e41375fb27edabb75bfaf990ace33b4833846
