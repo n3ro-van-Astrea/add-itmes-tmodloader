@@ -8,10 +8,10 @@ namespace amoxnero.Content.Projectiles
     {
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 {
-    target.AddBuff(BuffID.OnFire, 100);
-    target.AddBuff(BuffID.CursedInferno, 100);
-    target.AddBuff(BuffID.Frostburn, 100);
-    target.AddBuff(BuffID.ShadowFlame, 100);
+    target.AddBuff(BuffID.OnFire, 60);
+    target.AddBuff(BuffID.CursedInferno, 60);
+    target.AddBuff(BuffID.Frostburn, 60);
+    target.AddBuff(BuffID.ShadowFlame, 60);
 }
         public override void SetDefaults()
         {
